@@ -1,9 +1,8 @@
 # Portfolio Website + JavaScript Puzzle Project
 
 ## Project Description
-This project is a small personal website showcasing interactive web projects.  
-It includes a home page, a projects page, and an interactive sliding puzzle game.  
-The site demonstrates modern web development techniques using semantic HTML, responsive CSS layouts, and JavaScript interactivity.
+This project is a small personal portfolio showcasing interactive web projects.  
+It includes a home page and a projects page. THe projects page has small interactive projects like the Sliding Puzzle Game.
 
 ---
 
