@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/base.css">  <!--root and overall rules-->
+    <link rel="stylesheet" href="css/layout.css"> <!--base grid-->
+    <link rel="stylesheet" href="css/components.css"> <!--navbar-->
+    <link rel="stylesheet" href="css/projects.css"> <!--current page-->
+</head>
+<body class="container">
+    <!-- Header with navbar placeholder -->
+    <header>
+        <div id="navbar"></div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section class="projects">
+            <!-- Project 1 -->
+            <article class="project">
+                <a href="./projects/img_puzzle_game/img_puzzle.html"><h2>Sliding image puzzle</h2></a>
+                <div class="project-hero">
+                    <img src="./attributes/img/img_puzzle_game.png" alt="Project 1 Image" class="project-image">
+                    <div class="project-challenges-wrapper">
+                        <h3 class="challenges-title">Challenges</h3>
+                        <ul class="project-challenges">
+                            <li>Implementing the tile movement logic, ensuring only adjacent tiles can swap with the empty one.</li>
+                            <li>Managing each tile position using a grid system and attributes.</li>
+                            <li>Handling image shuffling while keeping the empty tile fixed and the puzzle always solvable.</li>
+                            <li>Detecting victory by comparing tile positions with their correct order.</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="project-description">
+                    This project recreates the classic sliding image puzzle game where a picture is divided into a 3×3 grid with
+                     one tile missing. The goal is to rearrange the shuffled tiles until the original image is restored.
+
+                    Players click on tiles adjacent to the empty space to slide them into place. The game automatically checks 
+                    after every move to see if the puzzle has been solved and displays a victory message when completed.
+                </p>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project">
+                <a href="./projects/card_game/index.html"><h2>Card Game</h2></a>
+                <div class="project-hero">
+                    <img src="./attributes/img/card_game.png" alt="Project 2 Image" class="project-image">
+                    <div class="project-challenges-wrapper">
+                        <h3 class="challenges-title">Challenges</h3>
+                        <ul class="project-challenges">
+                            <li>Challenge A</li>
+                            <li>Challenge B</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="project-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magni cum impedit, molestiae nemo laudantium corrupti 
+                    necessitatibus consequuntur. Necessitatibus omnis tenetur perspiciatis eius illo et doloribus qui delectus repellendus praesentium.
+                </p>
+            </article>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Jonas — Developer
+    </footer>
+
+    <!-- JS -->
+    <script src="js/navbar.js"></script>
+</body>
+</html>

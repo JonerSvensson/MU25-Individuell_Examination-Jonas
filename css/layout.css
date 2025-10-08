@@ -1,0 +1,35 @@
+
+body{
+    margin: auto;
+    max-width: 1000px;
+    box-shadow: var(--shadow-lg);
+}
+
+header,
+footer {
+    padding: var(--spacing);
+    background: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: var(--spacing);
+    grid-template-columns: 1fr;
+    gap: var(--spacing);
+}
+
+/* .container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+} */
+
+@media (max-width: 500px) {
+    main {
+        display: block;
+    }
+    .container {
+        grid-template-rows: auto 1fr auto;
+    }
+
+}
