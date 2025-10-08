@@ -63,7 +63,7 @@ The site demonstrates modern web development techniques using semantic HTML, res
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 1. **Download or clone** the repository.
 2. Open the project folder in your editor.
