@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Highlight current page
       // Gets current url but takes away the "main domain" and removes "/" (index.html)
       const currentPage = window.location.pathname.split("/").pop();
-      console.log(currentPage);
+
       // Selects all links inside the list
       document.querySelectorAll(".navbar a").forEach(link => {
         //takes the path inside of the <a> tag and removes "\" in the beginning so it matches currentPage

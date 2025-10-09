@@ -170,7 +170,6 @@ function resetPuzzle() {
 function restartPuzzle() {
   resetPuzzle();
   loadPuzzle();
-  console.log("Puzzle restarted.");
 }
 
 function closeVictoryWindow() {
