@@ -4,8 +4,6 @@
   gap: var(--spacing-lg);
   padding: var(--spacing-lg) var(--spacing);
 }
-
-
 .project {
   display: grid;
   grid-template-rows: auto auto auto;
@@ -40,7 +38,6 @@
   border: 2px solid var(--primary, #5a5aff);
 }
 
-
 .project-challenges-wrapper {
   display: flex;
   flex-direction: column;
@@ -62,7 +59,6 @@
   padding: 0;
   color: var(--text-dark, #333);
 }
-
 .project-description {
   margin-top: var(--spacing);
   line-height: 1.6;

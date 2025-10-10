@@ -20,7 +20,6 @@
     display: block;
 }
 
-
 .puzzle-container img:hover,
 .puzzle-container img:focus-visible {
     box-shadow: 0 0 12px white;

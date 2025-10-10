@@ -2,7 +2,7 @@
 
 ## Project Description
 This project is a small personal portfolio showcasing interactive web projects.  
-It includes a home page and a projects page. THe projects page has small interactive projects like the Sliding Puzzle Game.
+It includes a home page and a projects page. The projects page has small interactive projects like the Sliding Puzzle Game.
 
 ---
 
